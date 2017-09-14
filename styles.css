@@ -123,6 +123,11 @@ font-weight: 400;
     padding: 10px;
 }
 
+.sub-title a:hover {
+    color: #0478e1;
+    background: rgba(0, 0, 0, 0.12);
+}
+
 
 .embed-frame{width: 100%; padding: 10px;
 max-width: 1000px;
