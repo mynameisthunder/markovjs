@@ -118,7 +118,7 @@ font-weight: 400;
 }
 
 .sub-title a {
-    background: #0478e1;
+    background: rgba(4, 120, 225, 0.68);
     color: white;
     padding: 10px;
 }
