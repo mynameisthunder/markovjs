@@ -102,7 +102,7 @@
 }
 
 
-.article-holder > a {
+.article-holder  a {
 	color: #0478e1;
 -webkit-transition: all .2s ease;
 -moz-transition: all .2s ease;
@@ -233,14 +233,41 @@ a.playlist-quote-source {
     border-radius: 4px;
     font-size: 18px;
     font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .pretty-quote-source a {
-    text-align: right;
     font-style: normal;
     font-size: .95em;
     color: #0478e1 !important;
     text-decoration: none;
+}
+
+.pretty-quote-source {
+    text-align: right;
+}
+
+.single-list-head {
+    font-weight: 600;
+    font-size: 1.19em;
+    color: #0478e1;
+    font-style: oblique;
+}
+
+.single-list {
+    max-width: 800px;
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.single-list p {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 10px;
+    border-left: solid 2px rgba(4, 120, 225, 0.18);
 }
 
 .red {
