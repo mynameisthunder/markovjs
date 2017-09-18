@@ -253,7 +253,7 @@ a.playlist-quote-source {
 .single-list-head {
     font-weight: 600;
     font-size: 1.19em;
-    color: #0478e1;
+    color: #d50046;
     font-style: oblique;
 }
 
@@ -269,7 +269,7 @@ a.playlist-quote-source {
     width: 100%;
     max-width: 800px;
     margin-left: 10px;
-    border-left: solid 2px rgba(4, 120, 225, 0.18);
+    border-left: solid 2px rgb(245, 245, 245);
 }
 
 .red {
@@ -309,6 +309,11 @@ a.playlist-quote-source {
 	max-height: initial;
 	display: block;
 }
+
+
+.article-holder p {
+    width: 100%;
+ }
 
 .album-cover {
     width: 200px;
