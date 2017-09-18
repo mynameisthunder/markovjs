@@ -102,7 +102,7 @@
 }
 
 
-.article-holder a {
+.article-holder > a {
 	color: #0478e1;
 -webkit-transition: all .2s ease;
 -moz-transition: all .2s ease;
