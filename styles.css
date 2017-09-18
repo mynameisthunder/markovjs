@@ -227,6 +227,22 @@ a.playlist-quote-source {
     padding-right: 10px;
 }
 
+.pretty-quote-block {
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.pretty-quote-source a {
+    text-align: right;
+    font-style: normal;
+    font-size: .95em;
+    color: #0478e1 !important;
+    text-decoration: none;
+}
+
 .red {
     background: #d50046;
 }
