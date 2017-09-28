@@ -298,6 +298,9 @@ a.playlist-quote-source {
 	.small-parallax, .header-parallax{
 		background-attachment: scroll;
 	}
+    .header-parallax{
+        height: 60vh;
+    }
 	.header-darken h1 {
 		font-size: 30px;
 	}
