@@ -254,6 +254,7 @@ a.playlist-quote-source {
     padding: 15px;
     margin-bottom: 10px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .genre {
