@@ -31,11 +31,108 @@
 	}
 
 
+.clearfix  {
+	clear: both;
+}
+
+.discovery-header-darken {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.31) 26%, rgba(0,0,0,0) 50%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.31) 26%,rgba(0,0,0,0) 50%);
+background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.31) 26%,rgba(0,0,0,0) 50%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+}
+.discovery-header {
+    height: 85vh;
+    min-height: 200px;
+    box-sizing: border-box;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 90%;
+    max-width: 1150px;
+    background-attachment: fixed;
+    margin: AUTO;
+}
+
+.discover-artist-info {
+    padding: 10px;
+    font-weight: 100;
+    max-width: 300px;
+    font-style: italic;
+    float: right;
+    text-align: center;
+}
+
+.artist-name {
+    font-size: 18px;
+    border-right: solid 5px;
+    border-right-color: #d50046;
+    min-width: 100px;
+    background: rgba(255, 255, 255, 0.07);
+    padding: 10px;
+    text-align: right;
+    border-radius: 4px 0px 0px 4px;
+    padding-left: 25px;
+     min-width: 150px;
+    margin-bottom: 10px;
+}
+
+.artist-name em {
+    font-weight: 400;
+    padding: 5px;
+}
+
+.discover-social-links a {
+    color: #d50046;
+}
+
+.discover-social-links i {
+    color: white;
+    font-size: 13px;
+    padding: 6px;
+    background: rgba(212, 0, 71, 0.86);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 2px;
+    margin-top: 5px;
+}
+
+
+.discovery-title {
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 50px;
+    box-sizing: border-box;
+    border-top: solid 5px;
+    color: black;
+    border-top-color: #d40047;
+    background: white;
+    position: relative;
+    z-index: 1000;
+    top: -80px;
+    margin: auto;
+    margin-bottom: -100px;
+}
+
+
 .article-holder  p {
 	max-width: 700px;
 	width: 80%;
 	margin: auto;
-	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 	box-sizing: border-box;
 	padding:15px;
 }
@@ -56,6 +153,7 @@
     border: solid 1px rgba(128, 128, 128, 0.05);
     border-radius: 2px;
     margin: auto;
+    margin-top: 15px;
     margin-bottom: 15px;
     min-height: 300px;
     position: relative;
@@ -86,8 +184,8 @@
 
 .album-review-album {
     font-weight: 700;
-    font-size: 50px;
-    padding-bottom: 20px;
+    font-size: 35px;
+    padding: 10px;
     border-bottom: solid 1px grey;
     margin-bottom: 0px;
 }
@@ -334,7 +432,7 @@ a.playlist-quote-source {
 
 @media screen and (max-width:800px) {
 
-	.small-parallax, .header-parallax{
+	.small-parallax, .header-parallax, .discovery-header {
 		background-attachment: scroll;
 	}
     .header-parallax{
@@ -344,6 +442,8 @@ a.playlist-quote-source {
 		font-size: 30px;
 	}
 }
+
+
 @media screen and (max-width:600px) {
 .review-overview {
 	max-width: inherit;
@@ -393,5 +493,60 @@ a.playlist-quote-source {
     font-size: 18px;
 }
 
+
+}
+
+
+
+@media screen and (max-width:420px) {
+
+.discover-artist-info {
+    padding: 10px;
+    font-weight: 100;
+    max-width: inherit;
+    font-style: italic;
+    float: none;
+    /* text-align: center; */
+    box-sizing: border-box;
+    width: 100%;
+    text-align: right;
+}
+
+.discovery-header {
+	width: 100%;
+	height: 50vh;
+}
+
+ /*.discover-social-links i {
+    color: white;
+    font-size: 50px;
+    padding: 35px;
+    background: #d40047;
+    border-radius: 2px;
+    width: 25%;
+    height: 20px;
+    line-height: 0px;
+    text-align: center;
+    margin: 2px;
+    min-width: 200px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}*/
+
+.discovery-title {
+    width: 90%;
+    text-align: center;
+    font-size: 33px;
+    padding: 20px;
+}
+
+.discovery-header-darken {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.72);
+    color: white;
+}
 
 }
