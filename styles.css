@@ -59,7 +59,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
     max-width: 1500px;
     background-attachment: fixed;
     margin: AUTO;
+        border-bottom: solid 1px rgba(197, 197, 197, 0.16);
+
 }
+
 
 .discover-artist-info {
     padding: 10px;
@@ -416,6 +419,10 @@ a.playlist-quote-source {
 
 .blue {
     background: #0478e1;
+}
+
+.pink {
+	background: #e10478
 }
 
 .purp {
