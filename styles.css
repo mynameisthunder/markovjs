@@ -4,6 +4,10 @@
     }
 
 
+body, html {
+	overflow-x: hidden;
+}
+
 .BlogItem-title {
     /* margin: auto; */
     text-align: center;
